@@ -20,7 +20,6 @@ function App() {
     };
     fetchData();
   }, []);
-  console.log(coins);
   return (
     <>
       <div className="container">

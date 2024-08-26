@@ -5,7 +5,6 @@ import React from "react";
 // eslint-disable-next-line react/prop-types
 function FilterBlock({ coins, setCoins }) {
   const [value, setValue] = useState("");
-  console.log("--render-filter");
   useEffect(() => {
     const filteredCoins = coins.filter((coin) => {
       return coin.name.toLowerCase().includes(value.toLowerCase());

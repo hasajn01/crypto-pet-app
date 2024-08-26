@@ -3,7 +3,6 @@ import React from "react";
 
 // eslint-disable-next-line react/prop-types
 function CoinsList({ coins }) {
-  console.log("--render-coins_list");
   return (
     <ul className="coin-list">
       {coins.map((coin) => {

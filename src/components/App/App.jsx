@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="header"> {cryptoName} </div>
+        <div className="header"> {cryptoName} <img src="/assets/icons/monitoring-icon.png" alt="monitoring" className="monitoring"/></div>
         <Card balance={balance} setBalance={setBalance} />
       </div>
       <FilterBlock coins={coins} setCoins={setFilteredCoins} />

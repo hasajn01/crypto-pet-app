@@ -16,7 +16,7 @@ function Card({ balance, setBalance }) {
         </button>
       </div>
 
-      <a href="https://www.bybit.com/fiat/trade/express/home/?medium=organic_SEO&source=Learn&channel=org_&campaign=ru_AlwaysOn&content=Buy_crypto&dtpid=1625476444751"><img src="/assets/img/chip.png" alt="chip" className="chip"/></a>
+      <a href="https://www.bybit.com/fiat/trade/express/home/?medium=organic_SEO&source=Learn&channel=org_&campaign=ru_AlwaysOn&content=Buy_crypto&dtpid=1625476444751" target="_blank"><img src="/assets/img/chip.png" alt="chip" className="chip"/></a>
 
 
       <div className="card-block">

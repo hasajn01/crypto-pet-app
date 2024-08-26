@@ -6,7 +6,7 @@ import CoinsList from "../CoinsList/CoinsList";
 import FilterBlock from "../FilterBlock/FilterBlock";
 
 function App() {
-  const cryptoName = "CRYPTO";
+  const cryptoName = "CRYPTO-MARKET";
 
   const [balance, setBalance] = useState(5000);
   const [coins, setCoins] = useState([]);

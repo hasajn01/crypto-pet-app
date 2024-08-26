@@ -11,5 +11,6 @@
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 48px;
-  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
 }

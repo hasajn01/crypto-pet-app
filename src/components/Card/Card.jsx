@@ -16,7 +16,9 @@ function Card({ balance, setBalance }) {
         </button>
       </div>
 
-      <img src="/assets/img/chip.png" alt="chip" className="chip"/>
+      <a href="https://www.bybit.com/fiat/trade/express/home/?medium=organic_SEO&source=Learn&channel=org_&campaign=ru_AlwaysOn&content=Buy_crypto&dtpid=1625476444751"><img src="/assets/img/chip.png" alt="chip" className="chip"/></a>
+
+
       <div className="card-block">
         <div className="block-1"> <img src="/assets/icons/card-id.png" alt="cardID" className="cardId"/> {name.toUpperCase()} </div>
         <div className="block"> {balance} $ </div>

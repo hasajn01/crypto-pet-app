@@ -9,3 +9,8 @@
 body {
   background-color: #070A4E;
 }
+
+a {
+  width: 100px;
+  height: 50px;
+}
